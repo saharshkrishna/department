@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Department Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="mobile.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-gray-50">
+  <!-- Header -->
+  <header class="bg-teal-700 py-8 text-black shadow-md">
+    <div class="container mx-auto text-center">
+      <h1 class="text-3xl font-bold font-serif mb-4 animate-fade-in-down">Institute of Printing Technology & Govt Polytechnic College</h1>
+      <h2 class="text-2xl font-bold font-serif animate-fade-in-down">Department of Computer Science</h2>
+      <nav class="mt-6 space-x-6">
+        <a href="#" class="px-4 py-2 hover:bg-teal-700 rounded-lg transition duration-300">Home</a>
+        <a href="#" class="px-4 py-2 hover:bg-teal-700 rounded-lg transition duration-300">About</a>
+        <a href="Gallery.html" class="px-4 py-2 hover:bg-teal-700 rounded-lg transition duration-300">Gallery</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto p-8">
+    <!-- About Us Section -->
+    <section class="mb-4 animate-fade-in-up">
+      <div class="flex flex-col md:flex-row items-center gap-8">
+        <!-- About Us Card (Left) -->
+        <div class="bg-gray-50 p-8 rounded-lg hover:shadow-xl transition-shadow duration-300 md:w-1/2">
+          <!-- Move the h2 inside the card -->
+          <h2 class="text-4xl font-bold font-serif text-teal-800 mb-6">About the Department</h2>
+          <p class="text-gray-700 text-lg leading-relaxed font-sans">
+            The Department of Computer Science is a leading institution dedicated to excellence in education, research, and innovation. With state-of-the-art facilities and a team of highly qualified faculty, we strive to provide students with the knowledge and skills needed to excel in the ever-evolving field of computer science. Our programs are designed to foster creativity, critical thinking, and problem-solving abilities, preparing graduates for successful careers in academia, industry, and research.
+          </p>
+        </div>
+        <!-- Animation (Right) -->
+        <div id="lottie-container" style="width: 500px; height: 400px;"></div>
+
+      </div>
+    </section>
+
+    <!-- Vision and Mission -->
+    <section class="mb-12 p-8 animate-fade-in-up">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Lottie Container for Vision (Left) -->
+        <div id="lottie-vision" class="flex items-center justify-center">
+          <!-- Lottie Animation Container -->
+          <div id="vision-animation" class="w-[400px] h-[200px]"></div>
+        </div>
+    
+        <!-- Vision Text -->
+        <div class="p-8 rounded-lg text-black hover:shadow-xl transition-shadow duration-300 max-w-fit self-start">
+          <h2 class="text-2xl font-bold mb-4 font-serif">Vision</h2>
+          <p id="vision" class="text-lg">"To be a center of expertise producing a generation with deep technical problem solving and leadership skills to confront with the latest technology and to harness software skills to empower the society and environment".</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="mb-12 p-8 animate-fade-in-up">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Mission Text -->
+        <div class="p-8 rounded-lg text-black hover:shadow-xl transition-shadow duration-300 max-w-fit self-start">
+          <h2 class="text-2xl font-bold mb-4 font-serif">Mission</h2>
+          <p id="mission" class="text-lg">
+            Developing emerging leaders in education by encouraging industrial interaction and societal connection with safety and environmental standards.
+            Building up of infrastructure and facilities to endure with rapidly changing technological advancements.
+            Improving the morale of students with self-confidence through technical and interactive learning.
+          </p>
+        </div>
+    
+        <!-- Lottie Container for Mission (Right) -->
+        <div id="lottie-mission" class="flex items-center justify-center">
+          <!-- Lottie Animation Container -->
+          <div id="mission-animation" class="w-[500px] h-[300px]"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOD Message -->
+    <section class="mb-12 animate-fade-in-up">
+      <h2 class="text-4xl font-bold font-serif mb-6 text-teal-800">Head of Department</h2>
+      <div class="flex flex-col md:flex-row items-center gap-8">
+        <!-- Image (Left) -->
+        <div class="w-full md:w-1/2 order-1 md:order-1">
+          <img class="w-3/4 h-auto rounded-lg shadow-lg" src="/department-website/frontend/assets/images/download.jpeg" alt="About Us Image">
+        </div>
+    
+        <!-- Card (Right) -->
+        <div class="bg-gray-50 p-8 rounded-lg hover:shadow-xl transition-shadow duration-300 w-full md:w-1/2 order-2 md:order-2">
+          <p class="text-gray-700 text-lg leading-relaxed font-sans">
+            "To be aspiring students to be more productive dnjhdjdnjd dnndsdskdjd sdnjsdms dsjdkdskd skddkkdsmd dkdmkdmkmdke"
+          </p>
+          <p class="text-gray-700 mt-4 text-right">Dr. John Doe</p>
+          <p class="text-gray-500 text-sm text-right">Professor</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faculty -->
+    <section class="mb-12 animate-fade-in-up">
+      <h2 class="text-3xl font-bold mb-8 font-serif text-teal-800">Faculty</h2>
+      <div class="flex flex-wrap justify-center gap-8">
+        <div class="bg-gray-100 p-6 rounded-lg hover:shadow-xl transition-shadow duration-300">
+          <img class="w-24 h-24 md:w-48 mb-4 md:h-auto md:rounded-lg mx-auto" src="/department-website/frontend/assets/images/p1.jpeg" alt="Faculty Image" width="384" height="512">
+          <p class="text-gray-700 text-center text-lg">Dr. John Doe</p>
+          <p class="text-gray-500 text-sm text-center">Professor</p>
+        </div>
+        <!-- Repeat for other faculty members -->
+        <div class="bg-gray-100 p-6 rounded-lg hover:shadow-xl transition-shadow duration-300">
+          <img class="w-24 h-24 md:w-48 mb-4 md:h-auto md:rounded-lg mx-auto" src="/department-website/frontend/assets/images/p1.jpeg" alt="Faculty Image" width="384" height="512">
+          <p class="text-gray-700 text-center text-lg">Dr. Jane Smith</p>
+          <p class="text-gray-500 text-sm text-center">Associate Professor</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg hover:shadow-xl transition-shadow duration-300">
+          <img class="w-24 h-24 md:w-48 mb-4 md:h-auto md:rounded-lg mx-auto" src="/department-website/frontend/assets/images/p1.jpeg" alt="Faculty Image" width="384" height="512">
+          <p class="text-gray-700 text-center text-lg">Dr. Alice Johnson</p>
+          <p class="text-gray-500 text-sm text-center">Assistant Professor</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Placements -->
+    <section class="mb-4 bg animate-fade-in-up">
+      <h2 class="text-3xl font-bold mb-8 font-serif text-teal-800">Placements</h2>
+      <div class="flex flex-wrap justify-center gap-8">
+        <div class="bg-gray-100 p-6 rounded-lg hover:shadow-xl transition-shadow duration-300">
+          <img class="w-24 h-24 md:w-48 mb-4 md:h-auto md:rounded-lg mx-auto" src="/department-website/frontend/assets/images/p1.jpeg" alt="Faculty Image" width="384" height="512">
+          <p class="text-gray-700 text-center text-lg">Dr. John Doe</p>
+          <p class="text-gray-500 text-sm text-center">Professor</p>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-8">
+          <div class="bg-gray-100 p-6 rounded-lg hover:shadow-xl transition-shadow duration-300">
+            <img class="w-24 h-24 md:w-48 mb-4 md:h-auto md:rounded-lg mx-auto" src="/department-website/frontend/assets/images/p1.jpeg" alt="Faculty Image" width="384" height="512">
+            <p class="text-gray-700 text-center text-lg">Dr. John Doe</p>
+            <p class="text-gray-500 text-sm text-center">Professor</p>
+          </div>
+
+          <div class="flex flex-wrap justify-center gap-8">
+            <div class="bg-gray-100 p-6 rounded-lg hover:shadow-xl transition-shadow duration-300">
+              <img class="w-24 h-24 md:w-48 mb-4 md:h-auto md:rounded-lg mx-auto" src="/department-website/frontend/assets/images/p1.jpeg" alt="Faculty Image" width="384" height="512">
+              <p class="text-gray-700 text-center text-lg">Dr. John Doe</p>
+              <p class="text-gray-500 text-sm text-center">Professor</p>
+            </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 mt-12">
+    <div class="container mx-auto text-center">
+      <p class="text-lg">&copy; 2023 Department of Computer Science. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Include the external JavaScript file -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+/* Mobile-specific styles (applied for screens up to 768px) */
+@media (max-width: 768px) {
+    /* Header */
+    header {
+      padding: 1.5rem 0; /* Reduce padding for mobile */
+    }
+  
+    header h1 {
+      font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+  
+    header h2 {
+      font-size: 1.25rem; /* Smaller font size for mobile */
+    }
+  
+    header nav {
+      flex-direction: column; /* Stack navigation links vertically */
+      gap: 0.5rem; /* Reduce gap between links */
+    }
+  
+    /* About Us Section */
+    .about-section {
+      padding: 1rem; /* Reduce padding for mobile */
+    }
+  
+    .about-section h2 {
+      font-size: 1.75rem; /* Smaller font size for mobile */
+    }
+  
+    .about-section p {
+      font-size: 0.875rem; /* Smaller font size for mobile */
+    }
+  
+    /* Vision and Mission Sections */
+    .vision-mission-section {
+      padding: 1rem; /* Reduce padding for mobile */
+    }
+  
+    .vision-mission-section h2 {
+      font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+  
+    .vision-mission-section p {
+      font-size: 0.875rem; /* Smaller font size for mobile */
+    }
+  
+    /* HOD Message Section */
+    .hod-section {
+      padding: 1rem; /* Reduce padding for mobile */
+    }
+  
+    .hod-section h2 {
+      font-size: 1.75rem; /* Smaller font size for mobile */
+    }
+  
+    .hod-section img {
+      width: 100%; /* Make image full width on mobile */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    .hod-section p {
+      font-size: 0.875rem; /* Smaller font size for mobile */
+    }
+  
+    /* Faculty Section */
+    .faculty-section {
+      padding: 1rem; /* Reduce padding for mobile */
+    }
+  
+    .faculty-section h2 {
+      font-size: 1.75rem; /* Smaller font size for mobile */
+    }
+  
+    .faculty-section .faculty-card {
+      width: 100%; /* Make faculty cards full width on mobile */
+      margin-bottom: 1rem; /* Add spacing between cards */
+    }
+  
+    .faculty-section img {
+      width: 100%; /* Make images full width on mobile */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    /* Placements Section */
+    .placements-section {
+      padding: 1rem; /* Reduce padding for mobile */
+    }
+  
+    .placements-section h2 {
+      font-size: 1.75rem; /* Smaller font size for mobile */
+    }
+  
+    .placements-section .placement-card {
+      width: 100%; /* Make placement cards full width on mobile */
+      margin-bottom: 1rem; /* Add spacing between cards */
+    }
+  
+    .placements-section img {
+      width: 100%; /* Make images full width on mobile */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    /* Footer */
+    footer {
+      padding: 1rem; /* Reduce padding for mobile */
+    }
+  
+    footer p {
+      font-size: 0.875rem; /* Smaller font size for mobile */
+    }
+  }

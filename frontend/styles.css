@@ -1,0 +1,71 @@
+@keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fade-in-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fade-in-up {
+    animation: fade-in-up 0.5s ease-out;
+  }
+  
+  .animate-fade-in-down {
+    animation: fade-in-down 0.5s ease-out;
+  }
+
+     /* Custom CSS for animations and dark mode */
+     @keyframes fade-in-up {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+  
+      .animate-fade-in-up {
+        animation: fade-in-up 0.5s ease-out;
+      }
+  
+      .dark-mode {
+        background-color: #1a1a1a;
+        color: #ffffff;
+      }
+  
+      .dark-mode .bg-white {
+        background-color: #2d2d2d;
+        color: #ffffff;
+      }
+  
+      .dark-mode .text-gray-700 {
+        color: #e0e0e0;
+      }
+  
+      .dark-mode .text-gray-500 {
+        color: #a0a0a0;
+      }
+  
+      .dark-mode .bg-gray-100 {
+        background-color: #333333;
+      }
+  
+      .dark-mode .bg-gradient-to-r {
+        background-image: linear-gradient(to right, #4a5568, #2d3748);
+      }
